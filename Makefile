@@ -10,5 +10,8 @@ publish:
 package-install:
 	python3 -m pip install --user dist/*.whl
 
-make lint:
+lint:
 	poetry run flake8 gendiff
+
+test:
+	poetry run pytest
