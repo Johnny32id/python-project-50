@@ -17,9 +17,10 @@ def parse():
 def generate_diff(file_path_1, file_path_2):
     file_1 = json.load(open(file_path_1))
     file_2 = json.load(open(file_path_2))
-    unique_keys = sorted(set(file_1) | set(file_2))
+    unique_keys = set(file_1) | set(file_2)
+    sorted_keys = sorted(unique_keys)
     result = []
-    for key in unique_keys:
+    for key in sorted_keys:
         if key in file_1 and key not in file_2:
             result.append(f"- {key}: {file_1[key]}")
         if key not in file_1 and key in file_2:
