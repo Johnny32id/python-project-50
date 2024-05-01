@@ -10,5 +10,9 @@
 
 * .yaml files stylish flat
 <a href="https://asciinema.org/a/Ot8lrxyMBQ5y5AjveA8bqLodD" target="_blank"><img src="https://asciinema.org/a/Ot8lrxyMBQ5y5AjveA8bqLodD.svg" /></a>
-* .stylish nested
+
+* stylish nested
 <a href="https://asciinema.org/a/uRN82uBzXW67EwRpxM1NFULZF" target="_blank"><img src="https://asciinema.org/a/uRN82uBzXW67EwRpxM1NFULZF.svg" /></a>
+
+* plain nested
+<a href="https://asciinema.org/a/tWh8udnaYJBtc9FnHmXzQthkl" target="_blank"><img src="https://asciinema.org/a/tWh8udnaYJBtc9FnHmXzQthkl.svg" /></a>
