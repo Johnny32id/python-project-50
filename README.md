@@ -16,3 +16,6 @@
 
 * plain nested
 <a href="https://asciinema.org/a/tWh8udnaYJBtc9FnHmXzQthkl" target="_blank"><img src="https://asciinema.org/a/tWh8udnaYJBtc9FnHmXzQthkl.svg" /></a>
+
+*json nested
+<a href="https://asciinema.org/a/C2ztCUtk2DtxTD4mh0CeHyRxs" target="_blank"><img src="https://asciinema.org/a/C2ztCUtk2DtxTD4mh0CeHyRxs.svg" /></a>
