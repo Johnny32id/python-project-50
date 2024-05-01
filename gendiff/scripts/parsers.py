@@ -12,3 +12,5 @@ def parse(data, extension):
             return json.load(data)
         case '.yaml' | '.yml':
             return yaml.load(data, Loader=Loader)
+        case _:
+            raise NameError(f"Wrong file extension {extension}")
