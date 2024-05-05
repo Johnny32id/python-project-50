@@ -9,6 +9,8 @@ def value_to_string(value):
             return 'null'
         case dict():
             return '[complex value]'
+        case int():
+            return value
         case _:
             return f"'{value}'"
 
