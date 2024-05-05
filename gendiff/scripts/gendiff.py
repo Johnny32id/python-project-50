@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 import argparse
-import pathlib
-from .parsers import parse
-from .difference import difference
-from .formatters.formatters import building_format
+from ..generagate_diff import generate_diff
 
 
 def args_parse():
@@ -17,17 +14,6 @@ def args_parse():
     args = parser.parse_args()
     return {'first_file': args.first_file, 'second_file': args.second_file,
             'format': args.format}
-
-
-def generate_diff(file_path_1, file_path_2, format='stylish'):
-    extension = pathlib.Path(file_path_1).suffix
-    file1_data = open(file_path_1)
-    file2_data = open(file_path_2)
-    file1 = parse(file1_data, extension)
-    file2 = parse(file2_data, extension)
-    diff = difference(file1, file2)
-    result = building_format(format, diff)
-    return result
 
 
 def main():
