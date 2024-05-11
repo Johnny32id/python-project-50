@@ -4,7 +4,22 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/6a8b634379d3892501cb/maintainability)](https://codeclimate.com/github/Johnny32id/python-project-50/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/6a8b634379d3892501cb/test_coverage)](https://codeclimate.com/github/Johnny32id/python-project-50/test_coverage)
 
-**Asciinema**
+### Tool description:
+Program that determines the difference between data structures in two files
+
+### Main features:
+- Supporting of two type of files: json and yaml
+- Generate reports in next formats: stylish, plain text and raw json 
+
+### Installation:
+- install poetry
+- make install
+### Help:
+- gendiff -h
+### Launch:
+- gendiff [format] [filepath1] [filepath2]
+
+### Asciinema
 * .json files stylish flat
 <a href="https://asciinema.org/a/Gq2DIwxx2zk2i9MVp76X4rKKZ" target="_blank"><img src="https://asciinema.org/a/Gq2DIwxx2zk2i9MVp76X4rKKZ.svg" /></a>
 
