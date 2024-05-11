@@ -1,8 +1,7 @@
-#!/usr/bin/env python3
 import pathlib
-from .scripts.parsers import parse
-from .scripts.difference import difference
-from .scripts.formatters.formatters import building_format
+from .parsers import parse
+from .difference import difference
+from .formatters import building_format
 
 
 def generate_diff(file_path_1, file_path_2, format='stylish'):

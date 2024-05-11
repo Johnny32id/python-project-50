@@ -1,3 +1,3 @@
-from .generagate_diff import generate_diff
+from .diff_builder import generate_diff
 
 __all__ = ('generate_diff',)
